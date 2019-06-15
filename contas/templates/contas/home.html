@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Seja bem vindo!</h1>
-    <p>Criando a primeira página Django!<br> Agora a o projeto contendo um repositório git remoto!<br>Disponível <a href="https://github.com/jflaviojf3/Django-Udemy"> aqui</a>></p>
+    <p>Criando a primeira página Django!<br> Agora a o projeto contendo um repositório git remoto!</p>
     <p>Agora são: {{ now }}</p>
     <ul>
         {% for transacao in transacoes%}
@@ -19,6 +19,7 @@
         {% endif%}
 
         {% endfor %}
+        <li><a href="https://github.com/jflaviojf3/Django-Udemy">Repositório Git Django</a></li>
     </ul>
     <br>
     <form action="http://127.0.0.1:8000/admin/">
